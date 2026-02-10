@@ -51,7 +51,7 @@ trait ChiselScalatestTester {
    * Enable automatic reset before each test.
    * Override this to disable auto-reset if needed.
    */
-  def autoResetEnabled: Boolean = true
+  def autoResetEnabled: Boolean = false
 
   /**
    * Number of clock cycles to assert reset.
